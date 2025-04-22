@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
 
 # Virtual environment
 venv/
@@ -9,9 +12,11 @@ env/
 
 # Django database
 *.sqlite3
+db.sqlite3
 
 # VS Code settings
 .vscode/
+.idea/
 
 # OS files
 .DS_Store
@@ -24,4 +29,9 @@ Thumbs.db
 .env
 
 # Compiled static files
+media/
 staticfiles/
+
+# PostgreSQL dumps
+*.sql
+*.dump

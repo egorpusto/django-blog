@@ -1,0 +1,1060 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-04-06T18:34:22.373Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-04-06T18:40:38.069Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-06T18:40:56.227Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-06T18:43:37.108Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Who was Pharoah Sanders?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-09T17:28:47.960Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "One more post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-04-09T17:28:52.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "New Title",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-04-09T17:29:00.973Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-04-09T17:29:03.260Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-04-09T17:29:08.393Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Who was Pharoah Sanders?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-04-09T18:19:39.738Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-04-09T18:20:02.594Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Who was Pharoah Sanders?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-04-10T13:21:00.949Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Who was Miles Davis?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-04-10T13:21:45.334Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Who was Charlie Parker?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-04-14T12:23:38.612Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Antonio on Who was Charlie Parker?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-04-14T20:17:19.241Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Antonio on Who was Charlie Parker?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-04-14T20:17:25.982Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Who was Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-04-14T20:25:14.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Who was Miles Davis?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-14T20:25:48.808Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Who was Charlie Parker?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-20T09:07:55.541Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Markwodn post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-20T09:17:49.987Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-21T20:56:13.611Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Who was Pharoah Sanders?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-21T20:56:16.650Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Who was Charlie Parker?",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-21T21:12:53.760Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$5Lt3bp1L5yoCqUbjUXQ9wY$XDgo0ZTtpOT41eUobkB0islhpFaiHb94S168e93Keno=",
+    "last_login": "2025-04-21T20:39:30.402Z",
+    "is_superuser": true,
+    "username": "egoranoshin",
+    "first_name": "",
+    "last_name": "",
+    "email": "egor_pusto@icloud.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-04-06T18:30:21.754Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-04-06T19:01:42.276Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5kj98dhwlegwq0hlqwd1btnlqejvpkro",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hA-BcSle89A3odK1UBS2pXx7oakC93OTOYtEuxbSXvPa1pYXIQWp1-GQM9ch-AH1HuT1Oq2LihHIg_b5a1xfl2P9m9QoJexBbLBKrQq-8iKDJCbvGOlSTk0DrXXZ0awkw5oIIQ4E88-50AxOh_F5wvXvjfG:1u6Qcz:1hW5tRUvrGydo-Xw9QeZGSPYOZMzjWbSheTp_C8CIT4",
+    "expire_date": "2025-05-04T09:06:17.286Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ak1haixi9n9kmquu41n2rstdus9cnz79",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hA-BcSle89A3odK1UBS2pXx7oakC93OTOYtEuxbSXvPa1pYXIQWp1-GQM9ch-AH1HuT1Oq2LihHIg_b5a1xfl2P9m9QoJexBbLBKrQq-8iKDJCbvGOlSTk0DrXXZ0awkw5oIIQ4E88-50AxOh_F5wvXvjfG:1u1Um2:WQRWuBC_hi1MwESMlg0G1o0tq-oOJOLDk6zKmhHK7fY",
+    "expire_date": "2025-04-20T18:31:14.533Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fhcq9jbi8vj9z20dnb95surn2db8hiw1",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hA-BcSle89A3odK1UBS2pXx7oakC93OTOYtEuxbSXvPa1pYXIQWp1-GQM9ch-AH1HuT1Oq2LihHIg_b5a1xfl2P9m9QoJexBbLBKrQq-8iKDJCbvGOlSTk0DrXXZ0awkw5oIIQ4E88-50AxOh_F5wvXvjfG:1u6xvO:RMXDaYTmdM1Bj3MpVyKc-KQRUX0jdt0A2CS2OivppZ4",
+    "expire_date": "2025-05-05T20:39:30.405Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jc697xs26t3gk9u1qewlbb8uagqzege9",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hA-BcSle89A3odK1UBS2pXx7oakC93OTOYtEuxbSXvPa1pYXIQWp1-GQM9ch-AH1HuT1Oq2LihHIg_b5a1xfl2P9m9QoJexBbLBKrQq-8iKDJCbvGOlSTk0DrXXZ0awkw5oIIQ4E88-50AxOh_F5wvXvjfG:1u2rp8:gSEuJvZartgT1JAiykAaHG2QY9cwOqqOD5NwzosTDy8",
+    "expire_date": "2025-04-24T13:20:06.001Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q6un3kpleukpsqju0llbxvjdev8h6h8t",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2hA-BcSle89A3odK1UBS2pXx7oakC93OTOYtEuxbSXvPa1pYXIQWp1-GQM9ch-AH1HuT1Oq2LihHIg_b5a1xfl2P9m9QoJexBbLBKrQq-8iKDJCbvGOlSTk0DrXXZ0awkw5oIIQ4E88-50AxOh_F5wvXvjfG:1u2ZDt:yPehxlbsBhf4ySK0xBl2-BXG_5rHFm_RQgXB3qHOhnQ",
+    "expire_date": "2025-04-23T17:28:25.790Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Who was Django Reinhardt?",
+    "slug": "who-was-django-reinhardt",
+    "author": 1,
+    "body": "Django Reinhardt was a pioneering jazz guitarist and composer, best known for his virtuosic playing style and contributions to the development of European jazz.\r\n\r\nReinhardt was born on January 23, 1910, in Liberchies, Belgium, into a family of Romani musicians. He began playing the banjo and guitar at a young age and quickly developed a passion for music. In the 1930s, he moved to Paris, where he became involved in the vibrant jazz scene.\r\n\r\nIn 1934, Reinhardt suffered severe burns in a caravan fire, which left two fingers on his left hand permanently damaged. Despite this setback, he developed a unique playing technique using his index and middle fingers, which became his signature sound.\r\n\r\nReinhardt is best known for his work with the Quintette du Hot Club de France, a groundbreaking group that blended jazz with traditional Romani and French music. The group's recordings, such as \"Djangology\" and \"Nuages,\" are considered classics of the genre.\r\n\r\nReinhardt's influence on jazz and guitar playing is immeasurable. His innovative approach to the instrument and his ability to blend different musical styles inspired countless musicians and helped shape the course of jazz history.\r\n\r\nHe passed away on May 16, 1953, in Samois-sur-Seine, France, but his legacy continues to inspire musicians around the world.",
+    "publish": "2025-04-06T18:40:39Z",
+    "created": "2025-04-06T18:40:56.226Z",
+    "updated": "2025-04-14T20:17:25.977Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Who was Pharoah Sanders?",
+    "slug": "who-was-pharoah-sanders",
+    "author": 1,
+    "body": "Pharoah Sanders was an influential jazz saxophonist known for his powerful and spiritual approach to music.\r\n\r\nSanders was born on October 13, 1940, in Little Rock, Arkansas. He began playing the tenor saxophone at a young age and was deeply influenced by the sounds of John Coltrane and other avant-garde jazz musicians. In the late 1950s, he moved to Los Angeles to pursue a career in music.\r\n\r\nThroughout the 1960s, Sanders performed with various jazz ensembles and gained recognition for his unique sound and improvisational skills. His breakthrough came in 1969 with the release of his album «Karma», which showcased his ability to blend free jazz with spiritual and meditative elements.\r\n\r\nSanders' music often explored themes of spirituality, peace, and social justice. His albums, such as «The Creator Has a Master Plan» and «Earth Song», are considered classics of the genre and have inspired countless musicians.\r\n\r\nHis influence on jazz and saxophone playing is significant. His innovative approach to the instrument and his ability to infuse his music with deep emotional and spiritual content have left a lasting impact on the jazz world.\r\n\r\nHe continued to perform and record until his death on February 13, 2022, in Los Angeles, California. His legacy as a pioneer of avant-garde jazz and a spiritual musician continues to inspire new generations of musicians.",
+    "publish": "2025-04-06T18:42:19Z",
+    "created": "2025-04-06T18:43:37.105Z",
+    "updated": "2025-04-21T20:56:13.604Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Who was Miles Davis?",
+    "slug": "who-was-miles-davis",
+    "author": 1,
+    "body": "Miles Davis, born on May 26, 1926, in Alton, Illinois, was an influential American jazz musician and bandleader. He is widely regarded as one of the most important and innovative musicians in the history of jazz.\r\n\r\nDavis began playing the trumpet at a young age and quickly developed a unique style that combined technical proficiency with emotional expression. He attended the Juilliard School in New York City but soon became more interested in bebop, a style of jazz characterized by fast tempos and complex chord progressions.\r\n\r\nIn the 1940s, Davis began performing with some of the most prominent jazz musicians of the time, including Charlie Parker and Dizzy Gillespie. He formed his own bands and recorded several albums that helped define the cool jazz style, a more laid-back and introspective approach to the music.\r\n\r\nThroughout his career, Davis continued to push the boundaries of jazz, incorporating elements of rock, funk, and other genres into his music. His albums, such as \"Kind of Blue\" (1959) and \"Bitches Brew\" (1970), are considered landmarks in the development of jazz and have influenced countless musicians.\r\n\r\nDavis's innovative approach to music and his willingness to experiment with new sounds and styles earned him a reputation as a visionary and a pioneer. He died on September 28, 1991, but his legacy continues to inspire musicians and fans around the world.",
+    "publish": "2025-04-10T13:20:28Z",
+    "created": "2025-04-10T13:21:00.947Z",
+    "updated": "2025-04-14T20:25:14.074Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Who was Charlie Parker?",
+    "slug": "who-was-charlie-parker",
+    "author": 1,
+    "body": "Charlie Parker, born on August 29, 1920, in Kansas City, Missouri, was an influential American jazz saxophonist and composer. He is widely regarded as one of the most important figures in the development of bebop, a complex and influential style of jazz that emerged in the 1940s.\r\n\r\nParker began playing the saxophone at a young age and quickly developed a unique style characterized by his virtuosity, harmonic complexity, and emotional intensity. He moved to New York City in the late 1930s to pursue a career in music and soon became involved in the vibrant jazz scene there.\r\n\r\nIn the 1940s, Parker began performing with other prominent jazz musicians, including Dizzy Gillespie and Max Roach, and helped to define the bebop style with his innovative approach to improvisation and harmony. He recorded several influential albums, such as «Charlie Parker with Strings» and «Bird and Diz», which showcased his virtuosity and creativity.\r\n\r\nDespite his success, Parker struggled with personal demons, including drug addiction and mental health issues, which affected his career and personal life. He died on March 12, 1955, but his legacy as a pioneer of bebop and a virtuoso saxophonist continues to inspire musicians and fans around the world.",
+    "publish": "2025-04-10T13:21:22Z",
+    "created": "2025-04-10T13:21:45.334Z",
+    "updated": "2025-04-21T20:56:16.645Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Markwodn post",
+    "slug": "markwodn-post",
+    "author": 1,
+    "body": "This is post formatted with markdown\r\n------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n* Two\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+    "publish": "2025-04-20T09:06:21Z",
+    "created": "2025-04-20T09:07:55.531Z",
+    "updated": "2025-04-20T09:07:55.531Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 5,
+    "name": "Egor",
+    "email": "egor_pusto@icloud.com",
+    "body": "Good post!",
+    "created": "2025-04-14T12:19:29.618Z",
+    "updated": "2025-04-14T12:19:29.618Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 5,
+    "name": "Antonio",
+    "email": "egor_pusto@icloud.com",
+    "body": "I didn't know that!",
+    "created": "2025-04-14T12:20:53.564Z",
+    "updated": "2025-04-14T20:17:19.240Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 3
+  }
+}
+]
