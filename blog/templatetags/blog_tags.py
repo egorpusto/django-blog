@@ -1,39 +1,48 @@
 from django import template
-from .. models import Post
+from django.core.cache import cache
 from django.db.models import Count
 from django.utils.safestring import mark_safe
+
 import markdown
 
+from ..models import Post
 
 register = template.Library()
 
-@register.filter(name='markdown')
+
+@register.filter(name="markdown")
 def markdown_format(text):
-    """
-    Converts markdown text to HTML.
-    """
     return mark_safe(markdown.markdown(text))
+
 
 @register.simple_tag
 def total_posts():
-    """
-    Returns the total number of published posts.
-    """
-    return Post.published.count()
+    count = cache.get("total_posts")
+    if count is None:
+        count = Post.published.count()
+        cache.set("total_posts", count, 60 * 15)
+    return count
 
-@register.inclusion_tag('blog/post/latest_posts.html')
+
+@register.inclusion_tag("blog/post/latest_posts.html")
 def show_latest_posts(count=5):
-    """
-    Returns the latest published posts.
-    """
-    latest_posts = Post.published.order_by('-publish')[:count]
-    return {'latest_posts': latest_posts}
+    cache_key = f"latest_posts_{count}"
+    latest_posts = cache.get(cache_key)
+    if latest_posts is None:
+        latest_posts = list(Post.published.order_by("-publish")[:count])
+        cache.set(cache_key, latest_posts, 60 * 15)
+    return {"latest_posts": latest_posts}
+
 
 @register.simple_tag
 def get_most_commented_posts(count=5):
-    """
-    Returns the most commented posts.
-    """
-    return Post.published.annotate(
-        total_comments=Count('comments')
-    ).order_by('-total_comments')[:count]
+    cache_key = f"most_commented_{count}"
+    posts = cache.get(cache_key)
+    if posts is None:
+        posts = list(
+            Post.published.annotate(total_comments=Count("comments")).order_by(
+                "-total_comments"
+            )[:count]
+        )
+        cache.set(cache_key, posts, 60 * 15)
+    return posts
