@@ -99,15 +99,15 @@ jobs:
         run: flake8 .
 
   docker:
-    name: Docker Build
-    runs-on: ubuntu-latest
+      name: Docker Build
+      runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
 
-      - name: Build Docker image
-        run: docker build -t django-blog .
+        - name: Build Docker image
+          run: docker build -t django-blog .
 
-      - name: Validate docker-compose
-        run: docker-compose config
+        - name: Validate docker-compose
+          run: docker compose config
