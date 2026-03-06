@@ -106,6 +106,9 @@ jobs:
         - name: Checkout code
           uses: actions/checkout@v4
 
+        - name: Create .env for docker compose validation
+          run: cp .env.example .env
+
         - name: Build Docker image
           run: docker build -t django-blog .
 
