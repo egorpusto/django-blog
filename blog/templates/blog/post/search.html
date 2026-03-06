@@ -4,29 +4,46 @@
 {% block title %}Search{% endblock %}
 
 {% block content %}
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h2 class="card-title">
+                <i class="bi bi-search"></i> Search posts
+            </h2>
+            <form method="get" class="d-flex gap-2">
+                <input type="text"
+                       name="query"
+                       value="{{ query|default:'' }}"
+                       class="form-control"
+                       placeholder="Search...">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </div>
+
     {% if query %}
-        <h1>Posts containing "{{ query }}"</h1>
-        <h3>
-            {% with results.count as total_results %}
-                Found {{ total_results }} result{{ total_results|pluralize }}.
+        <p class="text-muted">
+            {% with results.count as total %}
+                Found <strong>{{ total }}</strong> result{{ total|pluralize }}
+                for "<strong>{{ query }}</strong>"
             {% endwith %}
-        </h3>
+        </p>
         {% for post in results %}
-            <h4>
-                <a href="{{ post.get_absolute_url }}">
-                    {{ post.title }}
-                </a>
-            </h4>
-            {{ post.body|markdown|truncatewords_html:12 }}
+            <div class="card post-card shadow-sm mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <a href="{{ post.get_absolute_url }}" class="text-decoration-none text-dark">
+                            {{ post.title }}
+                        </a>
+                    </h5>
+                    <p class="card-text text-muted small">
+                        {{ post.body|markdown|truncatewords_html:15 }}
+                    </p>
+                </div>
+            </div>
         {% empty %}
-            <p>There are no results for your query</p>
+            <div class="alert alert-warning">
+                No results found. Try a different query.
+            </div>
         {% endfor %}
-        <p><a href="{% url 'blog:post_search' %}">Search again</a></p>
-    {% else %}
-        <h1>Search for posts</h1>
-        <form method="get">
-            {{ form.as_p }}
-            <input type="submit" value="Search">
-        </form>
     {% endif %}
 {% endblock %}

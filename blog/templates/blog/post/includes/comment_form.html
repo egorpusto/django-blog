@@ -1,12 +1,28 @@
-<h2>Add a new comment</h2>
-<form action="{% url 'blog:post_comment' post.id %}" method="post">
-    <div class="left">
-        {{ form.name.as_field_group }}
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">
+            <i class="bi bi-pencil-square"></i> Leave a comment
+        </h5>
+        <form action="{% url 'blog:post_comment' post.id %}" method="post">
+            {% csrf_token %}
+            {% for field in form %}
+                <div class="mb-3">
+                    <label for="{{ field.id_for_label }}" class="form-label fw-semibold">
+                        {{ field.label }}
+                    </label>
+                    <input type="{{ field.field.widget.input_type }}"
+                           name="{{ field.html_name }}"
+                           id="{{ field.id_for_label }}"
+                           class="form-control {% if field.errors %}is-invalid{% endif %}"
+                           {% if field.value %}value="{{ field.value }}"{% endif %}>
+                    {% for error in field.errors %}
+                        <div class="invalid-feedback">{{ error }}</div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-send"></i> Submit
+            </button>
+        </form>
     </div>
-    <div class="left">
-        {{ form.email.as_field_group }}
-    </div>
-        {{ form.body.as_field_group }}
-        {% csrf_token %}
-        <p><input type="submit" value="Add comment"></p>
-</form>
+</div>

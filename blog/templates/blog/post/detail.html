@@ -4,43 +4,71 @@
 {% block title %}{{ post.title }}{% endblock %}
 
 {% block content %}
-    <h1>{{ post.title }}</h1>
-    <p class="date">
-        Published {{ post.publish }} by {{ post.author }}
-    </p>
-    {{ post.body|markdown }}
-    <p>
-        <a href="{% url 'blog:post_share' post.id %}">
-            Share this post
-        </a>
-    </p>
-
-    <h2>Similar posts</h2>
-    {% for post in similar_posts %}
-        <p>
-            <a href="{{ post.get_absolute_url }}">
-                {{ post.title }}
-            </a>
-        </p>
-    {% empty %}
-        <p>No similar posts found.</p>
-    {% endfor %}
-
-    {% with comments.count as total_comments %}
-        <h2>
-            {{ total_comments }} comment{{ total_comments|pluralize }}
-        </h2>
-    {% endwith %}
-    {% for comment in comments %}
-        <div class="comment">
-            <p class="info">
-                Comment {{ forloop.counter }} by {{ comment.name }}
-                {{ comment.created }}
+    <article class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h1 class="card-title">{{ post.title }}</h1>
+            <p class="text-muted small">
+                <i class="bi bi-calendar3"></i> {{ post.publish|date:"N j, Y" }}
+                &nbsp;|&nbsp;
+                <i class="bi bi-person"></i>
+                <a href="{% url 'accounts:profile' post.author.username %}"
+                class="text-decoration-none">
+                    {{ post.author }}
+                </a>
             </p>
-            {{ comment.body|linebreaks }}
+            <hr>
+            <div class="post-body">
+                {{ post.body|markdown }}
+            </div>
+            <hr>
+            <a href="{% url 'blog:post_share' post.id %}" class="btn btn-outline-secondary btn-sm">
+                <i class="bi bi-envelope"></i> Share via email
+            </a>
         </div>
-    {% empty %}
-        <p>There are no comments.</p>
-    {% endfor %}
+    </article>
+
+    <!-- Similar posts -->
+    {% if similar_posts %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-diagram-3"></i> Similar Posts
+                </h5>
+                <ul class="list-unstyled mb-0">
+                    {% for p in similar_posts %}
+                        <li>
+                            <a href="{{ p.get_absolute_url }}" class="text-decoration-none">
+                                {{ p.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    {% endif %}
+
+    <!-- Comments -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">
+                <i class="bi bi-chat-left-text"></i>
+                {{ comments.count }} comment{{ comments.count|pluralize }}
+            </h5>
+            {% for comment in comments %}
+                <div class="border rounded p-3 mb-3 bg-light">
+                    <p class="mb-1 fw-semibold">
+                        {{ comment.name }}
+                        <small class="text-muted fw-normal">
+                            — {{ comment.created|date:"N j, Y" }}
+                        </small>
+                    </p>
+                    <p class="mb-0">{{ comment.body|linebreaks }}</p>
+                </div>
+            {% empty %}
+                <p class="text-muted">No comments yet. Be the first!</p>
+            {% endfor %}
+        </div>
+    </div>
+
     {% include "blog/post/includes/comment_form.html" %}
 {% endblock %}
